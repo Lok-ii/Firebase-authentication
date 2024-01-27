@@ -30,6 +30,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  document.title = "Firebase Authentication";
   return (
     <AuthProvider>
       <RouterProvider router={router} />
